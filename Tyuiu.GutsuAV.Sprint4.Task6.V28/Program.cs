@@ -19,7 +19,7 @@ namespace Tyuiu.GutsuAV.Sprint4.Task6.V28
             Console.WriteLine("* Тема: Класс Array                                                                    *");
             Console.WriteLine("* Таск #6                                                                              *");
             Console.WriteLine("* Вариaнт #28                                                                          *");
-            Console.WriteLine("* Выполнил: Бутаков Игорь Константинович | ИИПб-23-1                                   *");
+            Console.WriteLine("* Выполнил: Гуцу Александр Владимирович | ИИПб-23-1                                    *");
             Console.WriteLine("****************************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                             *");
             Console.WriteLine("* Дан строковый массив данных, используя класс Array, выведите элементы массива, длина *");
