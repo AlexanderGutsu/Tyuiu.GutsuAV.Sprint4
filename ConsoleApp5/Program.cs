@@ -12,19 +12,14 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            double s0 = 0;
-            double s1 = 0;
-            int x = 2;
-            for (int j = 1; j <= 3; j++)
+            int[] array = new int[] { -7, 6, 5, -8, 3, 1 };
+            int c = 0;
+            for (int i = 0; i < array.Length; i++)
             {
-                for (int k = 1; k <= 3; k++)
-                {
-                    s0 = (3 + k) * x;
-                    s1 += s0;
-                }
+                if (array[i] > 0 )
+                    c += array[i];
             }
-
-            Console.WriteLine(Math.Round(s1,3));
+            Console.WriteLine(c);
             Console.ReadKey();
         }
     }
