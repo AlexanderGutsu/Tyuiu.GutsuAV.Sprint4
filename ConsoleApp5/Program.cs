@@ -12,14 +12,14 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            int[] array = new int[] { -7, 6, 5, -8, 3, 1 };
-            int c = 0;
+            int[] array = new int[] { 5, 3, 1, 6, 3, 1 };
+            int p = 1;
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] > 0 )
-                    c += array[i];
+                if (array[i] % 2 == 0 )
+                    p *= array[i];
             }
-            Console.WriteLine(c);
+            Console.WriteLine(p);
             Console.ReadKey();
         }
     }
